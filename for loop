@@ -6,10 +6,10 @@ namespace Stoodent
 {
     public class Stoodent
     {
+        static void Main(string[] args)
+        {
 
 
-
-
-        
+        }  
     }
 }
