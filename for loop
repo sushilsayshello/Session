@@ -8,6 +8,9 @@ namespace Stoodent
     {
         static void Main(string[] args)
         {
+            string[] name = new string[5];
+            int[] age = new int[5];
+
 
 
         }  
