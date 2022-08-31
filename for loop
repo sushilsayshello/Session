@@ -22,6 +22,12 @@ namespace Stoodent
                 Console.Write("Now please enter your Age: ");
                 age[i] = Convert.ToInt32(Console.ReadLine());
             }
+            
+            
+            for (int j = 0; j < 5; j++)
+            {
+                Console.WriteLine("\nAh you are {0} and your age is {1}", name[j], age[j]);
+            }
 
 
         }  
