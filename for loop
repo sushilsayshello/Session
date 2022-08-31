@@ -11,6 +11,17 @@ namespace Stoodent
             string[] name = new string[5];
             int[] age = new int[5];
 
+            Console.WriteLine("******Victoria University ******");
+
+            for (int i = 0; i < 5; i++)
+            {
+
+                Console.Write("\n\nEnter your name: ");
+                name[i] = Console.ReadLine();
+
+                Console.Write("Now please enter your Age: ");
+                age[i] = Convert.ToInt32(Console.ReadLine());
+            }
 
 
         }  
